@@ -8,7 +8,7 @@ after_script:
   - cd ./public
   - echo "blog.editso.com" > CNAME
   - git init
-  - git config user.name editso
+  - git config user.name "editso"
   - git config user.email "admin@editso.com"
   - git add .
   - git commit -m "Update"
