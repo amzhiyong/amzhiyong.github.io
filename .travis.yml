@@ -8,27 +8,14 @@ after_script:
   - cd ./public
   - echo "blog.editso.com" > CNAME
   - git init
-<<<<<<< HEAD
-  - git config user.name editso
-  - git config user.email "admin@editso.com"
-  - git add .
-  - git commit -m "Update"
-  - git push –force –quiet "https://${GH_TOKEN}@${GH_REF}" master:master
-Branches:
-=======
   - git config user.name "editso"
   - git config user.email "admin@editso.com"
   - git add .
   - git commit -m "Update"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 branches:
->>>>>>> 6a6170df6db39b69dfb0224c44afd72b6c7fe89d
   only:
     - hexo
 env:
   global:
-<<<<<<< HEAD
     - GH_REF: github.com/editso/editso.github.io.git
-=======
-    - GH_REF: github.com/editso/editso.github.io.git
->>>>>>> 6a6170df6db39b69dfb0224c44afd72b6c7fe89d
