@@ -12,7 +12,7 @@ after_script:
   - git config user.email “admin@editso.com“
   - git add .
   - git commit -m “Update”
-  - git push –force –quiet “https://${GH_TOKEN}@${GH_REF}” master:master
+  - git push –force –quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 branches:
   only:
     - hexo
