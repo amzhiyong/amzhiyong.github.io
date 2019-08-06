@@ -1,21 +1,21 @@
-language: node_js
+Language: node_js
 node_js: stable
-install:
+Install:
   - npm install
-script:
+Script:
   - hexo g
-after_script:
+After_script:
   - cd ./public
-  - echo “blog.editso.com" > CNAME
+  - echo "blog.editso.com" > CNAME
   - git init
   - git config user.name editso
-  - git config user.email “admin@editso.com“
+  - git config user.email "admin@editso.com"
   - git add .
-  - git commit -m “Update”
+  - git commit -m "Update"
   - git push –force –quiet "https://${GH_TOKEN}@${GH_REF}" master:master
-branches:
+Branches:
   only:
-    - hexo
-env:
+    - blog
+Env:
   global:
     - GH_REF: github.com/editso/editso.github.io.git
