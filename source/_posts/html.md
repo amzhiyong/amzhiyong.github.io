@@ -42,6 +42,14 @@ categories:
 
     水平线
     英文：horizaontal row
+> img
+
+    单标签 ,不需要结束标签
+    属性：
+        src: 目标图地址
+        width: 宽度
+        height: 高度
+        alt: 图片缺失文本替换信息，
 
 
 > html 实体
