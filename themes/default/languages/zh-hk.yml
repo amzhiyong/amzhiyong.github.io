@@ -1,98 +1,45 @@
-title:
-  archive: 歸檔
-  category: 分類
-  tag: 標籤
-  schedule: 日程表
-
-author: 博主
-
-menu:
-  home: 首頁
-  archives: 歸檔
-  categories: 分類
-  tags: 標籤
-  about: 關於
-  search: 檢索
-  schedule: 日程表
-  sitemap: 站點地圖
-  commonweal: 公益404
-
 sidebar:
-  overview: 本站概覽
-  toc: 文章目錄
-
+  category: 文章分類
+  tagcloud: 熱門標籤
+  toc: 本文目錄
+  related_posts: 相關文章
 post:
-  created: 創建於
-  modified: 更新於
-  sticky: 置頂
-  posted: 發表於
-  in: 分類於
+  top: 置頂
   read_more: 閱讀全文
-  untitled: 未命名
-  toc_empty: 此文章未包含目錄
-  visitors: 閱讀次數
-  wordcount: 字數統計
-  min2read: 閱讀時長
-  totalcount: Site words total count
+  sticky: 置頂
+  comments: 評論
+  comments_placeholder: 無法加載%s評論系統，請確保您的網絡能夠正常訪問。
+  copy_button: 複製
+  copy_success: 複製成功
+  copy_failure: 複製失敗
+  updated: 更新於
+  prev_page: 上一頁
+  next_page: 下一頁
   copyright:
-    author: Post author
-    link: Post link
-    license_title: Copyright Notice
-    license_content: 'All articles in this blog are licensed under
-      <a href="%s" rel="external nofollow" target="_blank">%s</a> unless stating additionally.'
-
-page:
-  totally: 共有
-  tags: 標籤
-
+    author: 本文作者
+    link: 文章連結
+    license_title: 版權聲明
+    license_content: "本網誌所有文章除特別聲明外，均採用 %s 許可協議。轉載請註明出處！"
 footer:
-  powered: "由 %s 強力驅動"
-  theme: 主題
-
-counter:
-  tag_cloud:
-    zero: 暫無標籤
-    one: 目前共有 1 個標籤
-    other: "目前共有 %d 個標籤"
-
-  categories:
-    zero: 暫無分類
-    one: 目前共有 1 個分類
-    other: "目前共有 %d 個分類"
-
-  archive_posts:
-    zero: 暫無文章。
-    one: 目前共有 1 篇文章。
-    other: "目前共有 %d 篇文章。"
-
-state:
-  posts: 文章
-  pages: 頁面
-  tags: 標籤
-  categories: 分類
-
+  license: '博客內容遵循 [姓名標示-非商業性-相同方式分享 4.0 國際 (CC BY-NC-SA 4.0) 協議](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)'
+  use: 本站使用
+  theme: 作為主題
+  total_views: 總訪問量為
+  total_visitors: 總訪客量為
+  times: 次
 search:
-  placeholder: 搜索...
-
-cheers:
-  um: 嗯..
-  ok: OK
-  nice: 好
-  good: 很好
-  great: 非常好
-  excellent: 激爆好
-
-keep_on: 繼續努力。
-
+  placeholder: 搜尋
 symbol:
-  comma: '， '
-  period: '。 '
-  colon: '：'
-
-reward:
-  donate: 打賞
-  wechatpay: 微信支付
-  alipay: 支付寶
-  bitcoin: 比特幣
-
-gitmentbutton: 顯示 Gitment 評論
+  comma: "，"
+  period: "。"
+  colon: "："
+  brackets_l: "（"
+  brackets_r: "）"
+# 下面這是博主相關的
+navbar:
+  home: 主頁
+  blogs: 博客
+  categories: 分類
+  tags: 標籤
+  archives: 歸檔
+  friends: 朋友

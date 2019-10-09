@@ -1,99 +1,45 @@
-title:
-  archive: Archive
-  category: Category
-  tag: Tag
-  schedule: Schedule
-
-author: Author
-
-menu:
-  home: Home
-  archives: Archives
-  categories: Categories
-  tags: Tags
-  about: About
-  search: Search
-  schedule: Schedule
-  sitemap: Sitemap
-  commonweal: Commonweal 404
-
 sidebar:
-  overview: Overview
-  toc: Table of Contents
-
+  category: Categories
+  tagcloud: Hot Tags
+  toc: TOC
+  related_posts: Related Posts
 post:
-  created: Post created
-  modified: Post modified
+  top: Top
+  read_more: Read More
   sticky: Sticky
-  posted: Posted on
-  in: In
-  more: more
-  read_more: Read more
-  untitled: Untitled
-  toc_empty: This post does not have a Table of Contents
-  visitors: Visitors
-  wordcount: Words count in article
-  min2read: Reading time
-  totalcount: Site words total count
+  comments: Comments
+  comments_placeholder: Unable to load %s, please make sure your network can access.
+  copy_button: Copy
+  copy_success: Copied
+  copy_failure: Copy failed
+  updated: updated at
+  prev_page: Previous
+  next_page: Next
   copyright:
     author: Post author
     link: Post link
     license_title: Copyright Notice
-    license_content: 'All articles in this blog are licensed under
-      <a href="%s" rel="external nofollow" target="_blank">%s</a> unless stating additionally.'
-
-page:
-  totally: Totally
-  tags: tags
-
+    license_content: "All articles in this blog are licensed under %s unless stating additionally."
 footer:
-  powered: "Powered by %s"
-  theme: Theme
-
-counter:
-  tag_cloud:
-    zero: No tags
-    one: 1 tag in total
-    other: "%d tags in total"
-
-  categories:
-    zero: No categories
-    one: 1 category in total
-    other: "%d categories in total"
-
-  archive_posts:
-    zero: No posts.
-    one: 1 post.
-    other: "%d posts in total."
-
-state:
-  posts: posts
-  pages: pages
-  tags: tags
-  categories: categories
-
+  license: 'Blog content follows the [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)'
+  use: Use
+  theme: as theme
+  total_views: total visits
+  total_visitors: total visitors
+  times: times
 search:
-  placeholder: Searching...
-
-cheers:
-  um: Um..
-  ok: OK
-  nice: Nice
-  good: Good
-  great: Great
-  excellent: Excellent
-
-keep_on: Keep on posting.
-
+  placeholder: Search
 symbol:
-  comma: ', '
-  period: '. '
-  colon: ':'
-
-reward:
-  donate: Donate
-  wechatpay: WeChat Pay
-  alipay: Alipay
-  bitcoin: Bitcoin
-
-gitmentbutton: Show comments from Gitment
+  comma: ", "
+  period: ". "
+  colon: ": "
+  brackets_l: "("
+  brackets_r: ")"
+# 下面这是博主相关的
+navbar:
+  home: Home
+  blogs: Blogs
+  categories: Categories
+  tags: Tags
+  archives: Archives
+  friends: Friends
