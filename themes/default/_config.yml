@@ -1,36 +1,22 @@
-# when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -> "archives" )
-
-version: 3.0
-# Place your favicon.ico to /source directory.
+# Favicon
 favicon: /favicon.ico
 
-# Set default keywords (Use a comma to separate)
-keywords: fzb.me,冯宗宝,冯宗宝的blog 
+# SEO
+keywords: 生活,博客,前端,游戏
 
-# Code Highlight theme
-# Available value: normal | night | night eighties | night blue | night bright
-# https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+# Site title separator
+separator: '-'
 
+# RSS
+rss: /atom.xml
 
+# SNS config
+sns:
+  Blog: /archives
+  GitHub: https://github.com/editso
+
+# Nav menu
 menu:
-  Blog: /
-  #categories: /categories
-  #archives: /archives
-  #tags: /tags
-  Apollo: /apollo
-  Beanstalkd: /beanstalkd
+  Home: /
+  Archives: /archives
   About: /about
-  #致莫急: /a-letter-to-mr-moji
-  GitHub: https:github.com/mickeyouyou
-
-
-
-# Static files
-#vendors: vendors
-css: css
-js: js
-images: images
-
-# Miscellaneous, enter the tracking ID for your Google Analytics
-google_analytics: 
