@@ -7,7 +7,6 @@ categories:
 - web
 ---
 
-# HTML 使用
 
 > 声明标签
     
@@ -70,5 +69,3 @@ categories:
 `strong`: 加粗
 
 `em`: 斜体
-
-

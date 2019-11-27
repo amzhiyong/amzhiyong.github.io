@@ -7,8 +7,6 @@ categories:
 - GIT
 ---
 
-# git基本使用
-
 
 **配置信息**
 
