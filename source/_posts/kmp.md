@@ -129,7 +129,7 @@ int* prefix(char* s){
     //prefix table
     int len = strlen(s),
         i = 0,
-        j = -1, 
+        j = -1,
         *p = malloc(sizeof(int) * len);
     p[0] = -1;
 
@@ -138,7 +138,7 @@ int* prefix(char* s){
             p[++i] = ++j;
             continue;
         }
-        j = p[j];	
+        j = p[j];
     }
 
     return p;
