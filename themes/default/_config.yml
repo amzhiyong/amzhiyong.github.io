@@ -1,22 +1,31 @@
-# Favicon
-favicon: /favicon.ico
+menu: #TITLE: link
+  About: about/
+  Archives: archives/
 
-# SEO
-keywords: 生活,博客,前端,游戏
+profile_link: about/ #profile avatar-img link
+avatar: /images/avatar.png #Please also prepare a HDer picture and add suffix@2x put in the same directory.
 
-# Site title separator
-separator: '-'
+gitment:
+ username: 
+ repo: 
+ id: 
+ secret: 
 
-# RSS
-rss: /atom.xml
+theme_color: a1d0f6
 
-# SNS config
-sns:
-  Blog: /archives
-  GitHub: https://github.com/editso
+disqus_shortname: 
 
-# Nav menu
-menu:
-  Home: /
-  Archives: /archives
-  About: /about
+twitter: 
+
+hitokoto: false #Output a Chinese sentence to description
+instantclick: true #open INSTANTCLICK
+service_worker: false #open SERVICE WORKER
+
+js: #CDN
+  instantclick: //cdnjs.loli.net/ajax/libs/instantclick/3.0.1/instantclick.min.js
+  hitokoto: //v1.hitokoto.cn/?encode=js&select=%23hitokoto
+  service_worker: /sw.js
+  gitment: /js/gitment.browser.js
+
+css: #CDN
+  gitment: 

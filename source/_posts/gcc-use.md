@@ -1,7 +1,7 @@
 ---
-title: gcc-use
+title: GCC 常见命令参数的使用
 date: 2019-11-27 14:52:16
-tags: gcc
+tags: 学习笔记
 ---
 
 # GCC 命令常用参数的使用

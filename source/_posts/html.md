@@ -1,8 +1,8 @@
 ---
-title: html使用
+title: HTML的使用
 date: 2019/9/9 16:28
 tags: 
-- html
+- 学习笔记
 categories: 
 - web
 ---
@@ -42,26 +42,33 @@ categories:
 
     水平线
     英文：horizaontal row
+
 > img
 
-    单标签 ,不需要结束标签
-    属性：
-        src: 目标图地址
-        width: 宽度
-        height: 高度
-        alt: 图片缺失文本替换信息，
+ *   单标签,不需要结束标签
+ *   属性：
+
+        `src`: 目标图地址
+
+        `width`: 宽度
+
+        `height`: 高度
+        
+        `alt`: 图片缺失文本替换信息，
 
 
-> html 实体
+> 转义字符： 
 
-    转义字符： 
-        `&nbsp;`：空格
-        `&lt;`：小于号
-        `&gt;`: 大于号
+`&nbsp;`：空格
+
+`&lt;`：小于号
+
+`&gt;`: 大于号
 
 > 文本标签
 
-    `strong`: 加粗
-    `em`: 斜体
+`strong`: 加粗
+
+`em`: 斜体
 
 
