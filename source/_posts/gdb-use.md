@@ -63,6 +63,10 @@ tags:
     根据栈帧编号，切换栈桢  
     它通常与`bt`配合使用
 
+**`set follow-fork-mode [child | parent]`**  
+    `child`: 跟踪子进程  
+    `parent`: 跟踪父进程  
+
 **`display` & `undisplay`**  
     设置跟踪变量`display`  
     取消跟踪变量`undisplay`,需要使用被跟踪变量的编号
