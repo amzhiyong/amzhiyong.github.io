@@ -13,8 +13,28 @@ tags:
 4. 执行成功后刷新数据库 `flush privileges;`问题成功解决  
 
 **mysql连接出现 `cryptography is required for sha256_password or caching_sha2_password`**  
-1. 参考 [mysql报错RuntimeError: cryptography is required for sha256_password or caching_sha2_p](https://blog.csdn.net/p_xiaobai/article/details/85334875)  
-2. `ALTER USER 'root'@'localhost' IDENTIFIED BY 'password' PASSWORD EXPIRE NEVER;` #修改加密规则   
+1. 首先查询一下数据库`user`表中`连接时报错的用户与主机`  
+
+        mysql> select user,plugin,host  from mysql.user; 
+        +------------------+-----------------------+-----------+  
+        | user             | plugin                | host      |  
+        +------------------+-----------------------+-----------+  
+        | root             | mysql_native_password | %         |  
+        | mysql.infoschema | caching_sha2_password | localhost |  
+        | mysql.session    | caching_sha2_password | localhost |  
+        | mysql.sys        | caching_sha2_password | localhost |  
+        | root             | mysql_native_password | localhost |  
+        +------------------+-----------------------+-----------+  
+        5 rows in set (0.00 sec)  
+3. `%` 表示通配符
+2. 查询得出 `plugin `为 `caching_sha2_password` 就将它改为 `mysql_native_password`执行如下命令:  
+     `alter user 'your account'@'your host' identified with mysql_native_password by 'your password'`
+3. `flush privileges` #刷新权限
+4. 重新连接， 问题解决 。参考了`msql8.0`官方文档[可插拔身份验证](https://dev.mysql.com/doc/refman/8.0/en/pluggable-authentication.html)
+
+**不成功其他解决方法**  
+1. 参考 [mysql报错RuntimeError: cryptography is required for sha256_password or caching_sha2_p](https://blog.csdn.net/p_xiaobai/article/details/85334875)
+2. `ALTER USER 'root'@'localhost' IDENTIFIED BY 'password' PASSWORD EXPIRE NEVER;` #修改加密规则  
 3. ` ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';` #更新一下用户的密码 
 4. `FLUSH PRIVILEGES;` #刷新权限
 5. `alter user 'root'@'localhost' identified by '123456';`  # 再次重置密码
