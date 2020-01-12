@@ -38,4 +38,4 @@ tags:
 3. ` ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';` #更新一下用户的密码 
 4. `FLUSH PRIVILEGES;` #刷新权限
 5. `alter user 'root'@'localhost' identified by '123456';`  # 再次重置密码
-6. 重启服务,问题解决
+6. 重启服务,问题解决 
