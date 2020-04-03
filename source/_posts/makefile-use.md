@@ -18,7 +18,7 @@ tags:
 **两个函数**  
     函数调用方法:`$(函数名 args1, args2)`  
     `$(wildcard pattern)`:获取所有匹配的内容，返回一个列表  
-    `$(patsubst %,%,p3)`:获取某个列表中的所有值,并将参数1匹配到替换为参数二
+    `$(patsubst %, %,  p3)`:获取某个列表中的所有值,并将参数1匹配到替换为参数二
 
 **三个变量**  
     `$^`:获取一个规则中所有的依赖  
@@ -32,8 +32,8 @@ tags:
     如:
 ```
 # 规则
-src = $(patsubst *.c)
-obj = $(wildcare %.c, %.o, $(src))
+src = $(wildcard *.c)
+obj = $(patsubst %.c, %.o, $(src))
 a.out:$(obj)
     gcc $(obj) -o $@
 
