@@ -6,7 +6,7 @@ script:
   - hexo g
 after_script:
   - cd ./public
-  - echo "zy.editso.com" > CNAME
+  - echo "blog.editso.com" > CNAME
   - git init
   - git config user.name "editso"
   - git config user.email "admin@editso.com"
@@ -18,4 +18,4 @@ branches:
     - hexo
 env:
   global:
-    - GH_REF: github.com/amzhiyong/amzhiyong.github.io.git
+    - GH_REF: https://github.com/editso/editso.github.io.git
