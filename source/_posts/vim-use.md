@@ -2,8 +2,8 @@
 title: vim编辑器使用
 date: 2019-11-27 16:30:34
 tags:
-- 学习笔记
-- editor
+    - 学习笔记
+    - Editor
 ---
 
 ### vim三种模式

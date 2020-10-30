@@ -2,10 +2,10 @@
 title: ubuntu使用
 date: 2019-12-24 17:05:21
 tags: 
-    - theme
-    - linux
-    - ubuntu
-    - log
+    - Theme
+    - Linux
+    - Ubuntu
+    - 日志
 ---
 **`APT`切换阿里云软件源**  
 编辑： `sudo vim /etc/apt/sources.list`  

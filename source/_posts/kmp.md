@@ -1,7 +1,10 @@
 ---
 title: 字符串匹配算法-KMP
 date: 2019-11-27 15:50:04
-tags: algorithm
+tags: 
+    - Algorithm
+    - 编程
+    - Code
 ---
 
 **说明**  

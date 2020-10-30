@@ -2,14 +2,14 @@
 title: 记录一次Manjaro下VirtualBox界面文字不显示,黑屏
 date: 2020-10-29 23:36:16
 tags:
-- log
-- linux
-- Virtualbox
-- kde
+    - 日志
+    - Linux
+    - VirtualBox
+    - Kde
 ---
 
 ## 问题截图
-![文字不显示](/images/virtualbox-log.png)
+![文字不显示](/images/virtualbox/log.png)
 
 ## 我的解决办法  
 
