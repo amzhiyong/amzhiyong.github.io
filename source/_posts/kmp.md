@@ -7,17 +7,20 @@ tags:
     - Code
 ---
 
-**说明**  
-    kmp的一些概述不做解释了, 请参考:  [kmp算法](https://baike.baidu.com/item/kmp%E7%AE%97%E6%B3%95/10951804?fr=aladdin) (百度百科)  
-    参考了 `阮一峰`的: [字符串匹配的KMP算法](http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html)  
-    使用 `C` 语言实现的算法  
+# 字符串匹配算法-KMP
 
-**部分匹配表**  
-    指在一串字符串中, 前缀与后缀中所共有的字符  
-    前缀: 不包含字符串最后一个字符  
-    后缀: 不包含字符串第一个字符  
+## 说明  
+kmp的一些概述不做解释了, 请参考:  [kmp算法](https://baike.baidu.com/item/kmp%E7%AE%97%E6%B3%95/10951804?fr=aladdin) (百度百科)  
+参考了 `阮一峰`的: [字符串匹配的KMP算法](http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html)  
+使用 `C` 语言实现的算法  
 
-**例如字符串 (`AHABAD`)**  
+## 部分匹配表
+指在一串字符串中, 前缀与后缀中所共有的字符  
+- 前缀: 不包含字符串最后一个字符  
+- 后缀: 不包含字符串第一个字符  
+
+### 例子:  
+字符串 (`AHABAD`)**  
 由此得出他们的部分匹配表为  
 
 **`A -> 0`**  
@@ -123,9 +126,9 @@ int kmpSearch(char *t, char *s){
 }
 ```
 
-> **完整代码**  
-    所需头文件:  
-    `string.h stdlib.h`  
+### 完整代码
+所需头文件:  
+> `string.h stdlib.h`  
 ```
 //部分匹配表算法
 int* prefix(char* s){
