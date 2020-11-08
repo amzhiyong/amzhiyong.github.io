@@ -2,7 +2,7 @@
 title:  记录一次学习C++时编译失败出现(multiple definition of xxx first defined here collect2)
 date: 2020-11-03 23:49:32
 tags:
-- C++
+- CPP
 - 日志
 ---
 
