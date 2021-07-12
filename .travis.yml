@@ -3,7 +3,7 @@ node_js: stable
 install:
   - npm install
 script:
-  - hexo g --debug
+  - hexo g
 after_script:
   - cd ./public
   - echo "blog.editso.com" > CNAME
