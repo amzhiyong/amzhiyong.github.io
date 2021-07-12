@@ -29,7 +29,7 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
       - name: Checkout Branch
-        run: git checkout hexo
+        run: git checkout -b hexo
       - name: Build hexo
         run: |
           npm install
